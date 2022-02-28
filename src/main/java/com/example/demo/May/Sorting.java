@@ -93,7 +93,7 @@ public class Sorting {
      * 每趟排序，根据对应的增量ti，将待排序列分割成若干长度为m 的子序列，分别对各子表进行直接插入排序。仅增量因子为1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。
      *
      * 时间复杂度：O(n^1.3)
-     * 空间复杂度：O(1)
+     * 空间复杂度：O(1) 13 5 46
      * @param nums
      * @return
      */
@@ -160,13 +160,13 @@ public class Sorting {
 
     public static void main(String[] args) {
         //冒泡
-//        bubbleSort(new int[]{5,3,15,-9,0,3,1,62,24});
-//        //选择
-//        selectionSort(new int[]{5,3,15,-9,0,3,1,62,24});
-//        //插入
-//        insertionSort(new int[]{5,3,15,-9,0,3,1,62,24});
+        bubbleSort(new int[]{5,3,15,-9,0,3,1,62,24});
+        //选择
+        selectionSort(new int[]{5,3,15,-9,0,3,1,62,24});
+        //插入
+        insertionSort(new int[]{5,3,15,-9,0,3,1,62,24});
         //希尔
-//        shellSort(new int[]{5,3,15,-9,0,3,1,62,24});
+        shellSort(new int[]{5,3,15,-9,0,3,1,62,24});
         //归并
         mergeSort(new int[]{5,3,15,-9,0,3,1,62,24});
     }
